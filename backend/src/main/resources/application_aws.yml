@@ -1,0 +1,14 @@
+dnd:
+  api:
+    key: ***REMOVED***
+server:
+  address: 172.31.32.163
+  port: 18080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: ***REMOVED***
+    url: jdbc:mysql://35.188.117.31:3306/dnd?serverTimezone=UTC&characterEncoding=UTF-8
+    username: dndadmin
+  profiles:
+    active: aws

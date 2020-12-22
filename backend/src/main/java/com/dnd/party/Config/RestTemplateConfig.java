@@ -1,4 +1,4 @@
-package com.dnd.party.setting;
+package com.dnd.party.Config;
 
 import java.nio.charset.Charset;
 import java.time.Duration;

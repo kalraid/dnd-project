@@ -1,4 +1,4 @@
-package com.dnd.party.setting;
+package com.dnd.party.Config;
 
 import javax.sql.DataSource;
 

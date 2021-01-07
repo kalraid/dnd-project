@@ -1,6 +1,9 @@
 dnd:
   api:
     key: ***REMOVED***
+  secret:
+    key: ***REMOVED***
+    names: dndprojectkey_in_first
 server:
   port: 18080
   ssl:

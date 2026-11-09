@@ -1,0 +1,28 @@
+# build outputs
+backend/bin/
+backend/build/
+backend/out/
+backend/.gradle/
+*.jar
+!backend/gradle/wrapper/gradle-wrapper.jar
+frontend/node_modules/
+frontend/dist/
+
+# secrets / certificates
+*.jks
+*.p12
+*.keystore
+backend/src/main/resources/keys/
+.env
+.env.*
+
+# binaries downloaded locally
+backend/src/main/resources/selenium/chromedriver*
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
